@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# Build outputs
+dist/
+build/
+backend/dist/
+frontend/dist/
+backend/public/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary folders
+tmp/
+temp/
+
+# Test files (mantieni solo i file di test necessari)
+test-*.html
+backend/test-*.js
+backend/check-*.js
+backend/debug-*.js
+fix-*.js
+setup-*.js
+
+# File di configurazione locali
+SETUP-*.bat
+AVVIA-*.bat
+🛑-*.bat
+📖-*.bat
+
+# File di documentazione temporanei (mantieni solo quelli importanti)
+CREDENZIALI-*.md
+LOGIN-*.md
+FLUSSO-*.md
+PROBLEMI-*.md
+SICUREZZA-*.md
+NOME-*.md
+CORREZIONI-*.md
+TEST-*.md
+GOOGLE-OAUTH-*.md
+SOLUZIONE-*.md
+
+# File HTML di test
+*.html
+
+# Vercel
+.vercel
